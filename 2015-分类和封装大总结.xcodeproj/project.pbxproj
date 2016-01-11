@@ -13,6 +13,29 @@
 		96D11DDB1C4383ED00AA36DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D11DD91C4383ED00AA36DA /* Main.storyboard */; };
 		96D11DDD1C4383ED00AA36DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D11DDC1C4383ED00AA36DA /* Assets.xcassets */; };
 		96D11DE01C4383ED00AA36DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D11DDE1C4383ED00AA36DA /* LaunchScreen.storyboard */; };
+		96D11DED1C43847300AA36DA /* UIView+YJQuickUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11DE81C43847300AA36DA /* UIView+YJQuickUIView.m */; };
+		96D11DEE1C43847300AA36DA /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11DEA1C43847300AA36DA /* NSString+Size.m */; };
+		96D11DEF1C43847300AA36DA /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11DEC1C43847300AA36DA /* UIView+Extension.m */; };
+		96D11DF61C4384BE00AA36DA /* NSString+PinYin.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11DF11C4384BE00AA36DA /* NSString+PinYin.m */; };
+		96D11DF71C4384BE00AA36DA /* NSArray+OnlyMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11DF31C4384BE00AA36DA /* NSArray+OnlyMember.m */; };
+		96D11DF81C4384BE00AA36DA /* YJSortAndIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11DF51C4384BE00AA36DA /* YJSortAndIndex.m */; };
+		96D11DFD1C43851D00AA36DA /* YJSmallTips.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11DFA1C43851D00AA36DA /* YJSmallTips.m */; };
+		96D11DFE1C43851D00AA36DA /* YJCacheFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11DFC1C43851D00AA36DA /* YJCacheFileManager.m */; };
+		96D11E031C43857400AA36DA /* YJTabBarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11E001C43857400AA36DA /* YJTabBarTool.m */; };
+		96D11E041C43857400AA36DA /* YJTabBarToolItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11E021C43857400AA36DA /* YJTabBarToolItem.m */; };
+		96D11E0B1C4385AA00AA36DA /* NSString+YJRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11E061C4385AA00AA36DA /* NSString+YJRegex.m */; };
+		96D11E0C1C4385AA00AA36DA /* NSString+YJMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11E081C4385AA00AA36DA /* NSString+YJMD5.m */; };
+		96D11E0D1C4385AA00AA36DA /* YJModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11E0A1C4385AA00AA36DA /* YJModelTool.m */; };
+		96D11E101C4385FF00AA36DA /* YJScrollTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11E0F1C4385FF00AA36DA /* YJScrollTitle.m */; };
+		96D11E131C4386E700AA36DA /* ValueStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11E121C4386E700AA36DA /* ValueStarView.m */; };
+		96D11E161C43876900AA36DA /* StarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11E151C43876900AA36DA /* StarView.m */; };
+		96D11E191C4388C300AA36DA /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11E181C4388C300AA36DA /* UIBarButtonItem+Extension.m */; };
+		96D11E1C1C4388E800AA36DA /* UITableView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11E1B1C4388E800AA36DA /* UITableView+EmptyData.m */; };
+		96D11E1F1C43890700AA36DA /* YJConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11E1E1C43890700AA36DA /* YJConstant.m */; };
+		96D11E221C43895A00AA36DA /* YJNetWorkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11E211C43895A00AA36DA /* YJNetWorkRequest.m */; };
+		96D11E251C43899500AA36DA /* NSDictionary+JSONString.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11E241C43899500AA36DA /* NSDictionary+JSONString.m */; };
+		96D11E281C4389A100AA36DA /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11E271C4389A100AA36DA /* NSDate+Utils.m */; };
+		96D11E2B1C438B7F00AA36DA /* YJGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D11E2A1C438B7F00AA36DA /* YJGuideViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +49,52 @@
 		96D11DDC1C4383ED00AA36DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96D11DDF1C4383ED00AA36DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96D11DE11C4383ED00AA36DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D11DE71C43847300AA36DA /* UIView+YJQuickUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YJQuickUIView.h"; sourceTree = "<group>"; };
+		96D11DE81C43847300AA36DA /* UIView+YJQuickUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YJQuickUIView.m"; sourceTree = "<group>"; };
+		96D11DE91C43847300AA36DA /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		96D11DEA1C43847300AA36DA /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		96D11DEB1C43847300AA36DA /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		96D11DEC1C43847300AA36DA /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		96D11DF01C4384BE00AA36DA /* NSString+PinYin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PinYin.h"; sourceTree = "<group>"; };
+		96D11DF11C4384BE00AA36DA /* NSString+PinYin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PinYin.m"; sourceTree = "<group>"; };
+		96D11DF21C4384BE00AA36DA /* NSArray+OnlyMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+OnlyMember.h"; sourceTree = "<group>"; };
+		96D11DF31C4384BE00AA36DA /* NSArray+OnlyMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+OnlyMember.m"; sourceTree = "<group>"; };
+		96D11DF41C4384BE00AA36DA /* YJSortAndIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJSortAndIndex.h; sourceTree = "<group>"; };
+		96D11DF51C4384BE00AA36DA /* YJSortAndIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJSortAndIndex.m; sourceTree = "<group>"; };
+		96D11DF91C43851D00AA36DA /* YJSmallTips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJSmallTips.h; sourceTree = "<group>"; };
+		96D11DFA1C43851D00AA36DA /* YJSmallTips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJSmallTips.m; sourceTree = "<group>"; };
+		96D11DFB1C43851D00AA36DA /* YJCacheFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJCacheFileManager.h; sourceTree = "<group>"; };
+		96D11DFC1C43851D00AA36DA /* YJCacheFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJCacheFileManager.m; sourceTree = "<group>"; };
+		96D11DFF1C43857400AA36DA /* YJTabBarTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTabBarTool.h; sourceTree = "<group>"; };
+		96D11E001C43857400AA36DA /* YJTabBarTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJTabBarTool.m; sourceTree = "<group>"; };
+		96D11E011C43857400AA36DA /* YJTabBarToolItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTabBarToolItem.h; sourceTree = "<group>"; };
+		96D11E021C43857400AA36DA /* YJTabBarToolItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJTabBarToolItem.m; sourceTree = "<group>"; };
+		96D11E051C4385AA00AA36DA /* NSString+YJRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YJRegex.h"; sourceTree = "<group>"; };
+		96D11E061C4385AA00AA36DA /* NSString+YJRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YJRegex.m"; sourceTree = "<group>"; };
+		96D11E071C4385AA00AA36DA /* NSString+YJMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YJMD5.h"; sourceTree = "<group>"; };
+		96D11E081C4385AA00AA36DA /* NSString+YJMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YJMD5.m"; sourceTree = "<group>"; };
+		96D11E091C4385AA00AA36DA /* YJModelTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJModelTool.h; sourceTree = "<group>"; };
+		96D11E0A1C4385AA00AA36DA /* YJModelTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJModelTool.m; sourceTree = "<group>"; };
+		96D11E0E1C4385FF00AA36DA /* YJScrollTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJScrollTitle.h; sourceTree = "<group>"; };
+		96D11E0F1C4385FF00AA36DA /* YJScrollTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJScrollTitle.m; sourceTree = "<group>"; };
+		96D11E111C4386E700AA36DA /* ValueStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValueStarView.h; sourceTree = "<group>"; };
+		96D11E121C4386E700AA36DA /* ValueStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueStarView.m; sourceTree = "<group>"; };
+		96D11E141C43876900AA36DA /* StarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarView.h; sourceTree = "<group>"; };
+		96D11E151C43876900AA36DA /* StarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarView.m; sourceTree = "<group>"; };
+		96D11E171C4388C300AA36DA /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		96D11E181C4388C300AA36DA /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		96D11E1A1C4388E800AA36DA /* UITableView+EmptyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+EmptyData.h"; sourceTree = "<group>"; };
+		96D11E1B1C4388E800AA36DA /* UITableView+EmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+EmptyData.m"; sourceTree = "<group>"; };
+		96D11E1D1C43890700AA36DA /* YJConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJConstant.h; sourceTree = "<group>"; };
+		96D11E1E1C43890700AA36DA /* YJConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJConstant.m; sourceTree = "<group>"; };
+		96D11E201C43895100AA36DA /* YJNetWorkRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJNetWorkRequest.h; sourceTree = "<group>"; };
+		96D11E211C43895A00AA36DA /* YJNetWorkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJNetWorkRequest.m; sourceTree = "<group>"; };
+		96D11E231C43899500AA36DA /* NSDictionary+JSONString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSONString.h"; sourceTree = "<group>"; };
+		96D11E241C43899500AA36DA /* NSDictionary+JSONString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSONString.m"; sourceTree = "<group>"; };
+		96D11E261C4389A100AA36DA /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
+		96D11E271C4389A100AA36DA /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
+		96D11E291C438B7F00AA36DA /* YJGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJGuideViewController.h; sourceTree = "<group>"; };
+		96D11E2A1C438B7F00AA36DA /* YJGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJGuideViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +131,52 @@
 				96D11DD41C4383ED00AA36DA /* AppDelegate.m */,
 				96D11DD61C4383ED00AA36DA /* ViewController.h */,
 				96D11DD71C4383ED00AA36DA /* ViewController.m */,
+				96D11DE71C43847300AA36DA /* UIView+YJQuickUIView.h */,
+				96D11DE81C43847300AA36DA /* UIView+YJQuickUIView.m */,
+				96D11DE91C43847300AA36DA /* NSString+Size.h */,
+				96D11DEA1C43847300AA36DA /* NSString+Size.m */,
+				96D11DEB1C43847300AA36DA /* UIView+Extension.h */,
+				96D11DEC1C43847300AA36DA /* UIView+Extension.m */,
+				96D11DF01C4384BE00AA36DA /* NSString+PinYin.h */,
+				96D11DF11C4384BE00AA36DA /* NSString+PinYin.m */,
+				96D11DF21C4384BE00AA36DA /* NSArray+OnlyMember.h */,
+				96D11DF31C4384BE00AA36DA /* NSArray+OnlyMember.m */,
+				96D11DF41C4384BE00AA36DA /* YJSortAndIndex.h */,
+				96D11DF51C4384BE00AA36DA /* YJSortAndIndex.m */,
+				96D11DF91C43851D00AA36DA /* YJSmallTips.h */,
+				96D11DFA1C43851D00AA36DA /* YJSmallTips.m */,
+				96D11DFB1C43851D00AA36DA /* YJCacheFileManager.h */,
+				96D11DFC1C43851D00AA36DA /* YJCacheFileManager.m */,
+				96D11DFF1C43857400AA36DA /* YJTabBarTool.h */,
+				96D11E001C43857400AA36DA /* YJTabBarTool.m */,
+				96D11E011C43857400AA36DA /* YJTabBarToolItem.h */,
+				96D11E021C43857400AA36DA /* YJTabBarToolItem.m */,
+				96D11E051C4385AA00AA36DA /* NSString+YJRegex.h */,
+				96D11E061C4385AA00AA36DA /* NSString+YJRegex.m */,
+				96D11E071C4385AA00AA36DA /* NSString+YJMD5.h */,
+				96D11E081C4385AA00AA36DA /* NSString+YJMD5.m */,
+				96D11E0E1C4385FF00AA36DA /* YJScrollTitle.h */,
+				96D11E0F1C4385FF00AA36DA /* YJScrollTitle.m */,
+				96D11E111C4386E700AA36DA /* ValueStarView.h */,
+				96D11E121C4386E700AA36DA /* ValueStarView.m */,
+				96D11E141C43876900AA36DA /* StarView.h */,
+				96D11E151C43876900AA36DA /* StarView.m */,
+				96D11E171C4388C300AA36DA /* UIBarButtonItem+Extension.h */,
+				96D11E181C4388C300AA36DA /* UIBarButtonItem+Extension.m */,
+				96D11E1A1C4388E800AA36DA /* UITableView+EmptyData.h */,
+				96D11E1B1C4388E800AA36DA /* UITableView+EmptyData.m */,
+				96D11E1D1C43890700AA36DA /* YJConstant.h */,
+				96D11E1E1C43890700AA36DA /* YJConstant.m */,
+				96D11E091C4385AA00AA36DA /* YJModelTool.h */,
+				96D11E0A1C4385AA00AA36DA /* YJModelTool.m */,
+				96D11E201C43895100AA36DA /* YJNetWorkRequest.h */,
+				96D11E211C43895A00AA36DA /* YJNetWorkRequest.m */,
+				96D11E231C43899500AA36DA /* NSDictionary+JSONString.h */,
+				96D11E241C43899500AA36DA /* NSDictionary+JSONString.m */,
+				96D11E261C4389A100AA36DA /* NSDate+Utils.h */,
+				96D11E271C4389A100AA36DA /* NSDate+Utils.m */,
+				96D11E291C438B7F00AA36DA /* YJGuideViewController.h */,
+				96D11E2A1C438B7F00AA36DA /* YJGuideViewController.m */,
 				96D11DD91C4383ED00AA36DA /* Main.storyboard */,
 				96D11DDC1C4383ED00AA36DA /* Assets.xcassets */,
 				96D11DDE1C4383ED00AA36DA /* LaunchScreen.storyboard */,
@@ -149,9 +264,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D11DEF1C43847300AA36DA /* UIView+Extension.m in Sources */,
+				96D11E101C4385FF00AA36DA /* YJScrollTitle.m in Sources */,
 				96D11DD81C4383ED00AA36DA /* ViewController.m in Sources */,
+				96D11E031C43857400AA36DA /* YJTabBarTool.m in Sources */,
+				96D11E281C4389A100AA36DA /* NSDate+Utils.m in Sources */,
+				96D11E191C4388C300AA36DA /* UIBarButtonItem+Extension.m in Sources */,
+				96D11E041C43857400AA36DA /* YJTabBarToolItem.m in Sources */,
 				96D11DD51C4383ED00AA36DA /* AppDelegate.m in Sources */,
+				96D11E251C43899500AA36DA /* NSDictionary+JSONString.m in Sources */,
+				96D11DF61C4384BE00AA36DA /* NSString+PinYin.m in Sources */,
+				96D11E1F1C43890700AA36DA /* YJConstant.m in Sources */,
+				96D11DF71C4384BE00AA36DA /* NSArray+OnlyMember.m in Sources */,
+				96D11E131C4386E700AA36DA /* ValueStarView.m in Sources */,
+				96D11DED1C43847300AA36DA /* UIView+YJQuickUIView.m in Sources */,
+				96D11E0B1C4385AA00AA36DA /* NSString+YJRegex.m in Sources */,
+				96D11DFE1C43851D00AA36DA /* YJCacheFileManager.m in Sources */,
+				96D11E161C43876900AA36DA /* StarView.m in Sources */,
+				96D11E0D1C4385AA00AA36DA /* YJModelTool.m in Sources */,
+				96D11DFD1C43851D00AA36DA /* YJSmallTips.m in Sources */,
+				96D11E0C1C4385AA00AA36DA /* NSString+YJMD5.m in Sources */,
+				96D11E221C43895A00AA36DA /* YJNetWorkRequest.m in Sources */,
 				96D11DD21C4383ED00AA36DA /* main.m in Sources */,
+				96D11E2B1C438B7F00AA36DA /* YJGuideViewController.m in Sources */,
+				96D11DF81C4384BE00AA36DA /* YJSortAndIndex.m in Sources */,
+				96D11DEE1C43847300AA36DA /* NSString+Size.m in Sources */,
+				96D11E1C1C4388E800AA36DA /* UITableView+EmptyData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
